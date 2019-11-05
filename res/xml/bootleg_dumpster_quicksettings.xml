@@ -18,6 +18,11 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <SwitchPreference
+        android:key="qs_show_privacy_chip"
+        android:title="@string/qs_privacy_perm_title"
+        android:summary="@string/qs_privacy_perm_summary"/>
+
     <PreferenceCategory
         android:key="quickset_random_misc"
         android:title="@string/misc_title">
