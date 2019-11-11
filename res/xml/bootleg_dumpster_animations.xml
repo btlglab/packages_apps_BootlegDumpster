@@ -15,4 +15,16 @@
     android:title="@string/animations_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:title="@string/animations_title" >
+
+        <ListPreference
+            android:key="screen_off_animation"
+            android:title="@string/screen_off_animation_title"
+            android:entries="@array/screen_off_animation_entries"
+            android:entryValues="@array/screen_off_animation_values"
+            android:persistent="false"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
