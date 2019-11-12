@@ -17,6 +17,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/bootleg_dumpster_title" >
 
+        <!-- Themeing -->
+        <Preference
+            android:key="theme_category"
+            android:title="@string/themes_title" 
+            android:summary="@string/themes_settings_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.ThemeSettings"
+            android:icon="@drawable/ic_settings_themes"/>
+
         <!-- Status Bar
         <Preference
             android:key="statusbar_category"
